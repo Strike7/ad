@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "BattleField Hardline"
 date: 2015-03-17 20:25:30
 category: "Tiro"
