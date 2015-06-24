@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% capture generated %}
 <div style="background-color: #f0f0f0; width: 100%; position: relative; max-width: 840px;">
     <div style="width: 100%; height: 340px; background-image: url('http://s3-sa-east-1.amazonaws.com/strike7-image/anuncio/strikesetbgtoa.png'); background-repeat: no-repeat; padding: 24px 24px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
         <img src="http://s3-sa-east-1.amazonaws.com/strike7-image/anuncio/logotop.png" alt="logotipo strike7 games"
@@ -10,12 +11,12 @@ layout: default
 
     <div style="width: 100%; background-color: #fff; display: block; height: 120px; color: #222;">
         <h1 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px; padding: 12px 12px;">
-            Battlefield Hardline</h1>
+            {{page.title | upcase}}</h1>
     </div>
-    <div style="height: 340px; background-color: grey; width: 100%; position: relative; background-image: url('http://s3-sa-east-1.amazonaws.com/strike7-image/backgorund-game/battlefielHardLine.jpg'); background-repeat: no-repeat;">
+    <div style="height: 340px; background-color: grey; width: 100%; position: relative; background-image: url('http://s3-sa-east-1.amazonaws.com/strike7-image/backgorund-game/{{page.background_image}}'); background-repeat: no-repeat;">
         <div style="position: relative; width: 100%; height: 100%; z-index: 80; background-color: #000000; opacity: 0.6;"></div>
         <div style="position: relative; float: right; width: 215px; height: 290px; background-color: transparent; z-index: 99; margin: -196px 40px 0 0;">
-            <img src="http://s3-sa-east-1.amazonaws.com/strike7-image/cover/battlefieldhardline.png" width="215"
+            <img src="http://s3-sa-east-1.amazonaws.com/strike7-image/cover/{{page.cover}}" width="215"
                  height="294"/></div>
         <div></div>
     </div>
@@ -28,28 +29,26 @@ layout: default
             <div>
                 <ul class="fields">
                     <li id="gameSize"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tamanho</strong>:</label><span>0</span>
+                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tamanho</strong>:</label><span>{{page.tamanho}}</span>
                     </li>
                     <li id="gameReleaseDate"><label
                             style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Data
-                        de lan&ccedil;amento</strong>:</label> <span>12/11/2014</span></li>
+                        de lan&ccedil;amento</strong>:</label> <span>{{page.date | date: "%d/%m/%y"}}</span></li>
                     <li id="gameDeveloper"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Desenvolvedor</strong>:</label><span>Turn 10</span>
+                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Desenvolvedor</strong>:</label><span>{{page.desenvolvedor}}</span>
                     </li>
                     <li id="gamePublisher"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Editor</strong>:</label><span>Microsoft Studios</span>
+                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Editor</strong>:</label><span>{{page.editor}}</span>
                     </li>
                     <li id="gameGenre"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>G&ecirc;nero</strong>:</label><span>Corrida e V&ocirc;o</span>
+                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>G&ecirc;nero</strong>:</label><span>{{page.category}}</span>
                     </li>
                     <li id="gameHour"><label
                             style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tempo
-                        de jogo</strong>:</label><span>25/100 horas</span></li>
+                        de jogo</strong>:</label><span>{{page.tempo_campanha}}/{{page.tempo_completo}} horas</span></li>
                 </ul>
             </div>
-            <div><label style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Descri&ccedil;&atilde;o</strong>:</label><span>A Edi&ccedil;&atilde;o do Ano do Forza Motorsport 5 inclui o Pacote de Carros Top Gear que apresenta 10 carros para colecionar, correr e personalizar, incluindo o Holden #10 Holden Xbox Racing Team Commodore VF 2013, Chaparral #66 Chaparral Cars 2E 1966 e o Audi RS4 Avant 2013. O Forza Motorsport 5 &eacute;
-                sua suprema fantasia automobil&iacute;stica, poss&iacute;vel somente no Xbox One. Apresentando um motor gr&aacute;fico totalmente novo, modo multijogador com 16 participantes, jogabilidade apoiada em nuvem e centenas de carros recriados com perfei&ccedil;&atilde;o, o Forza Motorsport 5 &eacute;
-                onde os sonhos s&atilde;o dirigidos. A vers&atilde;o para baixar desse jogo suporta os seguintes idiomas: ingl&ecirc;s, franc&ecirc;s, italiano, alem&atilde;o, espanhol, portugu&ecirc;s, holand&ecirc;s, russo, japon&ecirc;s, coreano e chin&ecirc;s.</span>
+            <div><label style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Descri&ccedil;&atilde;o</strong>:</label><span>{{page.content}}</span>
             </div>
         </div>
     </div>
@@ -59,18 +58,25 @@ layout: default
                 Perguntas frequentes</h3>
         </header>
         <div style="font-family: 'Segoe UI',Arial,Sans-Serif; font-size: 15px; line-height: 22px;"><strong><span
-                style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;">Posso jogar com minha conta principal?</span></strong>
+                style="display: block;
+                font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;
+                padding: 8px 8px;
+                font-weight: bold;">Posso jogar com minha conta principal?</span></strong>
             Pode jogar normalmente com sua conta principal e como tamb&eacute;m ir&aacute; receber as suas conquistas
             normalmente. Posso jogar online? Sim. Online e sem restri&ccedil;&otilde;es. <strong><span
-                    style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;">Como vou adquirir o jogo?</span></strong>
+                    style="display: block; 
+                    font-family: 'Segoe UI Semibold',Arial,Sans-Serif; 
+                    text-transform: capitalize; 
+                    padding: 8px 8px;
+                    font-weight: bold;">Como vou adquirir o jogo?</span></strong>
             Ser&aacute; enviado por email juntamente com todas as informa&ccedil;&otilde;es necess&aacute;rias para
             instala&ccedil;&atilde;o. <strong><span
-                    style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;">O jogo &eacute;
+                    style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;font-weight: bold;">O jogo &eacute;
                 original? </span></strong> Sim. Original e completo. <strong><span
                     style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;">Problemas na instala&ccedil;&atilde;o? </span></strong>
             Estaremos a disposi&ccedil;&atilde;o para esclarecer qualquer d&uacute;vida ou problema na hora instala&ccedil;&atilde;o.
             <strong><span
-                    style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;">O xbox precisa estar conectado a internet?</span></strong>
+                    style="display: block; font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize; padding: 8px 8px;font-weight: bold;">O xbox precisa estar conectado a internet?</span></strong>
             Sim, para iniciar o jogo voc&ecirc; precisa est&aacute; com o console conectado a internet.
         </div>
     </div>
@@ -105,22 +111,22 @@ layout: default
             <tr>
                 <td>03 + <span>2</span> dias</td>
                 <td style="border-bottom: dotted grey;"></td>
-                <td style="text-align: right;">R$ 4,90</td>
+                <td style="text-align: right;">R$ {{page.prices[0]}}</td>
             </tr>
             <tr>
                 <td>07 + <span>2</span> dias</td>
                 <td style="border-bottom: dotted grey;"></td>
-                <td style="text-align: right;">R$ 9,90</td>
+                <td style="text-align: right;">R$ {{page.prices[1]}}</td>
             </tr>
             <tr>
                 <td>14 + <span>1</span> dias</td>
                 <td style="border-bottom: dotted grey;"></td>
-                <td style="text-align: right;">R$ 9,90</td>
+                <td style="text-align: right;">R$ {{page.prices[2]}}</td>
             </tr>
             <tr>
                 <td>30 + <span>1</span> dias</td>
                 <td style="border-bottom: dotted grey;"></td>
-                <td style="text-align: right;">R$ 9,90</td>
+                <td style="text-align: right;">R$ {{page.prices[3]}}</td>
             </tr>
             </tbody>
         </table>
@@ -135,3 +141,33 @@ layout: default
         <img src="http://s3-sa-east-1.amazonaws.com/strike7-image/anuncio/logorodape.png"
              style="display: block; margin: 0 auto;" alt="formas de envio"/></div>
 </div>
+{% endcapture %}
+{{generated}}
+<style type="text/css">
+    .highlight pre {
+        overflow: scroll;
+        height: 480px; 
+    }
+</style>
+<h3>HTML Gerado</h3>
+{% highlight html %}
+{{generated}}
+{% endhighlight %}
+
+<h3>Youtube link </h3>
+{% assign ycode = page.youtube | split: "=" %}
+{{ page.youtube }}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ycode[1]}}" frameborder="0" allowfullscreen></iframe>
+
+<h3>Imagens</h3>
+{% for image in page.images %}
+<ul>
+    <li><a href="#img-{{image | slugify }}">{{image}}</a></li>
+</ul>
+{% endfor %}
+{% for image in page.images %}
+    <ul>
+        <li><span>{{image}}</span><img id="img-{{image | slugify }}" src="{{site.url}}/images/{{image}}"></li>
+    </ul>
+{% endfor %}
