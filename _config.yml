@@ -12,6 +12,6 @@ markdown: kramdown
 
 
 collections:
-  jogo:
+  jogos:
     output: true
     permalink: /mercado/:path/
