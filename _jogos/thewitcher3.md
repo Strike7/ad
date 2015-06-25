@@ -12,7 +12,7 @@ tempo_completo: 7
 cover: "thewitcher3wildhunt.png"
 background_image: "the_witcher3.jpg"
 images: ["the_witcher_3_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=r6UksN1Pwz0"
+youtube: "https://www.youtube.com/watch?v=hJlkMAZTEPI"
 prices: ["9,90", "14,90", 21,90", "29,90"]
 ---
 
