@@ -9,7 +9,7 @@ desenvolvedor: "NetherRealm Studios"
 editor: "Warner Bros. Interactive Entertainment"
 tempo_campanha: 5
 tempo_completo: 13
-cover: "mortalkombatx.png"
+cover: "mkx.png"
 background_image: "mkx.jpg"
 images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"

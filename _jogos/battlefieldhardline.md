@@ -11,7 +11,7 @@ tempo_campanha: 7
 tempo_completo: 30
 cover: "battlefieldhardline.png"
 background_image: "battlefielHardLine.jpg"
-images: ["battlefielHardLine.jpg","battlefielHardLine.jpg","battlefielHardLine.jpg"]
+images: ["battlefield_marked.jpg","babattlefielHardLine.jpg","battlefielHardLine.jpg","battlefielHardLine.jpg"]
 youtube: "https://www.youtube.com/watch?v=FxMmLNKbsjs"
 prices: ["4,90", "9,90", "10,90", "18,90"]
 ---

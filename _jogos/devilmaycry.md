@@ -12,7 +12,7 @@ tempo_completo: 37
 cover: "dmc.png"
 background_image: "dmc.jpg"
 images: ["dmc_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=eCr135Ffnwo"
+youtube: "https://www.youtube.com/watch?v=yRNgbl1btWE"
 prices: ["5,90", "10,90", "18,90", "25,40"]
 ---
 
