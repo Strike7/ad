@@ -5,10 +5,10 @@ date: 2015-03-17 20:25:30
 category: "Açao e Aventura"
 tamanho: "25,44 GB"
 estrelas: 4,5
-desenvolvedor: "Red Barrels"
-editor: "Red Barrels"
-tempo_campanha: 5
-tempo_completo: 7
+desenvolvedor: "CD PROJEKT "
+editor: "CD PROJEKT SA"
+tempo_campanha: 40
+tempo_completo: 81
 cover: "thewitcher3wildhunt.png"
 background_image: "the_witcher3.jpg"
 images: ["the_witcher_3_marked.jpg"]
