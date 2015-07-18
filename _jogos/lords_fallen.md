@@ -11,7 +11,7 @@ tempo_campanha: 13
 tempo_completo: 37
 cover: "lordsoffallen.png"
 background_image: "8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.jpg"
-images: ["screenlordsfallen1.jpg","screenlordsfallen2.jpg", "screenlordsfallen3.jpg", "screenlordsfallen4.jpg"]
+images: ["91DBGiF-YqL._SL1500_.jpg", screenlordsfallen1.jpg","screenlordsfallen2.jpg", "screenlordsfallen3.jpg"]
 youtube: "https://www.youtube.com/watch?v=aBHBXOBKyAM"
 prices: ["9,90", "14,90", "21,90", "29,90"]
 ---
