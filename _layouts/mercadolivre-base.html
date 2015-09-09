@@ -15,69 +15,19 @@ layout: default
            {{page.title | upcase}}</h1>
      </div>
 
-    <div style="height: 340px; background-color: grey; width: 100%; position: relative; background-image: url('http://s3-sa-east-1.amazonaws.com/strike7-image/backgorund-game/{{page.background_image}}'); background-repeat: no-repeat;">
-        <div style="position: relative; width: 100%; height: 100%; z-index: 80; background-color: #000000; opacity: 0.6;"></div>
-        <div style="position: relative; float: right; width: 215px; height: 290px; background-color: transparent; z-index: 99; margin: -196px 40px 0 0;">
-            <img src="http://s3-sa-east-1.amazonaws.com/strike7-image/cover/{{page.cover}}" width="215"
-                 height="294"/></div>
-        <div></div>
-    </div>
+     {{ content }}
 
-    <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
-        <header>
-            <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
-                Detalhe do jogo</h3>
-        </header>
-        <div style="font-family: 'Segoe UI',Arial,Sans-Serif; font-size: 15px; line-height: 22px;">
-            <div>
-                <ul class="fields">
-                    <li id="gameSize"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tamanho</strong>:</label><span>{{page.tamanho}}</span>
-                    </li>
-                    <li id="gameReleaseDate"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Data
-                        de lan&ccedil;amento</strong>:</label> <span>{{page.date | date: "%d/%m/%y"}}</span></li>
-                    <li id="gameDeveloper"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Desenvolvedor</strong>:</label><span>{{page.desenvolvedor}}</span>
-                    </li>
-                    <li id="gamePublisher"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Editor</strong>:</label><span>{{page.editor}}</span>
-                    </li>
-                    <li id="gameGenre"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>G&ecirc;nero</strong>:</label><span>{{page.category}}</span>
-                    </li>
-                    <li id="gameHour"><label
-                            style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tempo
-                        de jogo</strong>:</label><span>{{page.tempo_campanha}}/{{page.tempo_completo}} horas</span></li>
-                </ul>
-            </div>
-            <div><label style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Descri&ccedil;&atilde;o</strong>:</label><span>{{page.content}}</span>
-            </div>
-            <img src="http://45.55.11.19/api/capa/{{page.cover_id}}?tipo=barra" alt="disponibilidade" title="disponibilidade" style="max-width: 100%; height: auto;"/>
-        </div>
-    </div>
     <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
           <header>
             <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
                      Alugue por mais dias.. </h3>
-              <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 20px; font-weight: normal; line-height: 25px;">
-
-                <a href="http://produto.mercadolivre.com.br/MLB-678216361-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                4 dias
-                </a>,
-
-                <a href="http://produto.mercadolivre.com.br/MLB-676417700-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                8 dias
-                </a>,
-
-                <a href="http://produto.mercadolivre.com.br/MLB-682462395-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                15 dias
+              <div>
+            {%for periodo in page.periodos %}
+              <a href="{{periodo.link}}">
+                {{periodo.descricao}}
                 </a>
-                e
-                <a href="http://produto.mercadolivre.com.br/MLB-677651806-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                31 dias
-                </a>
-              </h3>
+              {%endfor%}
+              </div>
           </header>
 
     </div>

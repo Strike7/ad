@@ -11,7 +11,7 @@ layout: default
 
     <div style="width: 100%; background-color: #fff; display: block; height: 60px; color: #222;text-align: center;margin-top: 24px;">
         <h1 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px; padding: 12px 12px;">
-            Aluguel de Jogos Xbox One 7 Dias + 1</h1>
+           {{page.title}}</h1>
     </div>
 
     <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
@@ -20,9 +20,9 @@ layout: default
               Lista de Jogos  </h3>
         </header>
         <div style="margin:0 auto;font-family: 'Segoe UI',Arial,Sans-Serif; font-size: 15px; line-height: 22px;">
-          {% for cover in page.covers %}
+          {% for jogo in page.jogos %}
                   <span>
-                      <img src="http://s3-sa-east-1.amazonaws.com/strike7-image/cover/{{cover}}" height="165" width="140" style="margin:3px;" />
+                      <img src="http://45.55.11.19/api/capa/{{jogo.capa_id}}" title="{{jogo.titulo}}" height="165" width="140" style="margin:3px;" />
                   </span>
           {% endfor %}
         </div>
@@ -31,23 +31,13 @@ layout: default
           <header>
             <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
                      Outros Períodos</h3>
-              <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 20px; font-weight: normal; line-height: 25px;">
-                <a href="http://produto.mercadolivre.com.br/MLB-680190624-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                4 dias
-                </a>,
-
-                <a href="http://produto.mercadolivre.com.br/MLB-680186941-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                8 dias
-                </a>,
-
-                <a href="http://produto.mercadolivre.com.br/MLB-680195177-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                16 dias
+              <div style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 20px; font-weight: normal; line-height: 25px;">
+              {%for periodo in page.periodos %}
+              <a href="{{periodo.link}}">
+                {{periodo.descricao}}
                 </a>
-                e
-                <a href="http://produto.mercadolivre.com.br/MLB-680195464-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM">
-                31 dias
-                </a>
-              </h3>
+              {%endfor%}
+              </div>
           </header>
     </div>
     <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
@@ -59,27 +49,6 @@ layout: default
         </header>
 
     </div>
-  <!--  <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
-        <header>
-
-
-            <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
-                   Alugue por mais dias.. </h3>
-            <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 20px; font-weight: normal; line-height: 25px;">
-
-                <a href="">
-                15 dias
-                </a>
-                e
-                <a href="">
-                31 dias
-                </a>
-            </h3>
-        </header>
-
-    </div>
-  -->
-
     <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
         <header>
             <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
@@ -137,46 +106,9 @@ layout: default
 </div>
 
 <div style="display:none">
-  Alien Isolation
-  Assassins Creed Chronicles China
-  Assassins Creed Unity
-  Batman Arkham Knight
-  Battlefield Hardline
-  Bordelands
-  Call of Duty Ghosts
-  Dark Souls II
-  Dead Rising 3 Apocalypse Edition
-  Destiny
-  Devil May Cry DmC
-  Diablo III Ultimate Evil Edition
-  Dragon Age Inquisition
-  Dragon Ball Xenoverse
-  Dying Lights
-  Evolve
-  Far Cry 4
-  Halo Master Chief
-  Lego Batman
-  Lords of Fallen
-  Mortal Kombat X
-  Mortal Kombat X
-  Ori and the Blind Forest
-  Outlast
-  Project Cars
-  Prototype
-  Ryse Son of Rome
-  Saints Row IV: Re-Elected & Gat out of Hell
-  Senhor dos Aneis Sombras de Mordor
-  Sniper Elite 3
-  SpiderMan 2
-  Sunset Overdriver
-  The Evil Within + Expansão
-  The Witcher 3 Wild Hunter
-  Tomb Raider Definitive Edition
-  Watch Dogs
-  Just dance
-  thief
-  dishonored
-  gear of war
+  {% for jogo in page.jogos %}
+  {{jogo.titulo}}
+  {% endfor %}
 </div>
 
 

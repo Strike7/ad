@@ -12,6 +12,9 @@ markdown: kramdown
 
 
 collections:
+  grupos:
+    output: true
+    permalink: /grupo/:path/
   jogos:
     output: true
     permalink: /mercado/:path/
