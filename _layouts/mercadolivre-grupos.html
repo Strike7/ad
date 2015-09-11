@@ -14,16 +14,3 @@ layout: mercadolivre-base
       {% endfor %}
     </div>
 </div>
-<div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
-      <header>
-        <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
-                 Outros Períodos</h3>
-          <div style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 20px; font-weight: normal; line-height: 25px;">
-          {%for periodo in page.periodos %}
-          <a href="{{periodo.link}}">
-            {{periodo.descricao}}
-            </a>
-          {%endfor%}
-          </div>
-      </header>
-</div>
