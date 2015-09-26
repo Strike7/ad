@@ -1,6 +1,6 @@
 ---
-layout: mercadolivre-base
-title: "Borderlands 2 Dias + 1"
+layout: mercadolivre-individual
+title: "Borderlands"
 date: 2015-03-24 20:25:30
 category: "Tiro"
 tamanho: "23,34 GB"
@@ -13,6 +13,15 @@ cover: "borderlands.png"
 background_image: "borderlands.jpg"
 images: ["darksoul2_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=eCr135Ffnwo"
+cover_id: 16
+
+periodos:
+  - descricao: '4 dias'
+    link: 'http://produto.mercadolivre.com.br/MLB-680190624-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'
+  - descricao: '8 dias'
+    link: 'http://produto.mercadolivre.com.br/MLB-680186941-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'
+
+
 
 ---
 

@@ -1,19 +1,26 @@
 ---
-layout: mercadolivre-baselancamentos
-title: " Mad Max "
-date: 2015-09-01 20:25:30
-category: "Ação e Aventura"
-tamanho: "32,04 GB"
-estrelas: 4
-desenvolvedor: "Avalanche Studios"
-editor: "Warner Bros. Interactive Entertainment Inc."
+layout: mercadolivre-individual
+title: " FIFA 16 "
+date: 2015-09-22 20:25:30
+category: "Esporte"
+tamanho: "21,84 GB"
+estrelas: 4,5
+desenvolvedor: "EA CANADA "
+editor: "Electronic Arts"
 tempo_campanha: 0
 tempo_completo: 0
-cover: "madmax.png"
-background_image: "madmax.jpg"
-images: ["battlefield_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=FxMmLNKbsjs"
-prices: ["5,90", "10,90", "18,90", "25,40"]
+cover: "fifa16.png"
+background_image: "fifa16.jpg"
+cover_id: 30
+images: ["mkx_marked.jpg"]
+youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+
+periodos:
+  - descricao: '4 dias'
+    link: 'http://produto.mercadolivre.com.br/MLB-680190624-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'
+  - descricao: '8 dias'
+    link: 'http://produto.mercadolivre.com.br/MLB-680186941-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'
+
 ---
 
-Torne-se Mad Max, um guerreiro solitário em um mundo selvagem pós-apocalíptico onde carros são a chave para a sobrevivência. Neste jogo de mundo aberto em terceira pessoa repleto de ação, você precisa lutar para sobreviver na Terra Desolada usando técnicas de combate a pé, ou no volante, contra gangues de bandidos ferozes. Um herói relutante com instinto de sobrevivência, não há nada que Max queira mais do que deixar a loucura para trás e encontrar um pouco de paz nas lendárias "Planícies do Silêncio". Os jogadores são desafiados com missões traiçoeiras à medida que saqueiam um mundo perigoso em busca de recursos para construir o veículo de combate definitivo.
+O FIFA 16 inova no campo todo para oferecer uma experiência de futebol equilibrada, autêntica e empolgante, para você jogar do seu jeito e competir em um nível mais elevado. E com maneiras novas de jogar! Com recursos inovadores de jogo, o FIFA 16 traz confiança na defesa, controle no meio-campo e lhe dá as ferramentas para criar mais momentos mágicos do que nunca. Tanto os novos fãs da série quanto os jogadores habilidosos que queiram melhorar vão ter a chance de competir num nível mais elevado com o novo Treinador FIFA. Inovação no campo todo. Maneiras novas de jogar. Dispute em um nível mais elevado. Jogue bonito no FIFA 16.

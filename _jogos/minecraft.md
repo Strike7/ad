@@ -1,17 +1,17 @@
 ---
 layout: mercadolivre-individual
-title: "The LEGO Movie Videogame "
-date: 2014-02-07 20:25:30
+title: " Minecraft "
+date: 2014-09-05 20:25:30
 category: "Ação e Aventura, Família"
-tamanho: "6,85 GB"
-estrelas: 4,5
-desenvolvedor: "Traveller's Tales"
-editor: "Warner Bros. Interactive"
-tempo_campanha: 8
-tempo_completo: 11
-cover: "legomovie.png"
-background_image: "legomovie.jpg"
-cover_id: 74
+tamanho: "669,31 MB"
+estrelas: 4,0
+desenvolvedor: "Mojang / 4J Studios"
+editor: "Microsoft Studios"
+tempo_campanha: 19
+tempo_completo: 34
+cover: "minecraft.png"
+background_image: "minecraft.jpg"
+cover_id: 78
 images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
 
@@ -28,4 +28,4 @@ periodos:
 
 ---
 
-Junte-se a Emmet e a um grupo improvável de lutadores da resistência em sua missão heroica para acabar com os planos malignos do Lord Business - uma missão para a qual Emmet está hilariamente despreparado. É uma viagem animal com um mix surpreendente de mais de 90 personagens jogáveis incluindo, Batman, Superman, Mulher Maravilha, o Ninja Verde, Gandalf, Shakespeare, Cleópatra e mais.
+Constrói com a tua imaginação! Minecraft, o jogo mais vendido para Xbox 360, chegou à Xbox One. Cria e explora o teu próprio mundo, onde o único limite é a tua imaginação – não te esqueças de construir um abrigo antes de vir a noite, para ficares a salvo dos monstros. Joga sozinho, com até 4 jogadores em ecrã dividido, ou até 8 jogadores online.

@@ -1,17 +1,17 @@
 ---
 layout: mercadolivre-individual
-title: "The LEGO Movie Videogame "
-date: 2014-02-07 20:25:30
-category: "Ação e Aventura, Família"
-tamanho: "6,85 GB"
+title: " Grand Theft Auto V GTA V "
+date: 2014-11-18 20:25:30
+category: "Ação e Aventura"
+tamanho: "49,03 GB"
 estrelas: 4,5
-desenvolvedor: "Traveller's Tales"
-editor: "Warner Bros. Interactive"
-tempo_campanha: 8
-tempo_completo: 11
-cover: "legomovie.png"
-background_image: "legomovie.jpg"
-cover_id: 74
+desenvolvedor: "Rockstar North"
+editor: "Rockstar Games"
+tempo_campanha: 31
+tempo_completo: 75
+cover: "gtav.png"
+background_image: "gtav.jpg"
+cover_id: 76
 images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
 
@@ -28,4 +28,4 @@ periodos:
 
 ---
 
-Junte-se a Emmet e a um grupo improvável de lutadores da resistência em sua missão heroica para acabar com os planos malignos do Lord Business - uma missão para a qual Emmet está hilariamente despreparado. É uma viagem animal com um mix surpreendente de mais de 90 personagens jogáveis incluindo, Batman, Superman, Mulher Maravilha, o Ninja Verde, Gandalf, Shakespeare, Cleópatra e mais.
+Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se envolvem com alguns dos criminosos mais assustadores e loucos do submundo, o governo dos EUA e a indústria do entretenimento, eles devem realizar golpes ousados para sobreviver na cruel cidade, onde não podem confiar em ninguém, nem mesmo entre si. Com melhorias gráficas e técnicas gerais para um mundo mais vibrante e profundo.
