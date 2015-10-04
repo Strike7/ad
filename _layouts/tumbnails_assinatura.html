@@ -1,0 +1,26 @@
+---
+layout: mercadolivre-base
+---
+<div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+    <header>
+        <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
+          Lista de Jogos  </h3>
+    </header>
+    <div style="margin:0 auto;font-family: 'Segoe UI',Arial,Sans-Serif; font-size: 15px; line-height: 22px;">
+      {% for jogo in page.jogos %}
+
+            <div class="thumbnail col-md-3">
+                <h4 class="padding-10-20"><a href="#">{{jogo.titulo}} </a></h4>
+                <a href="#">
+                  <img src="https://s3-sa-east-1.amazonaws.com/strike7-image/cover/{{jogo.imgcover}}" style="width:200px !important;height:210px;" alt="Generic placeholder thumbnail">
+                </a>
+                <div class="caption padding-10-20">
+                  <span class="rating">
+                    <img src="http://45.55.11.19/api/capa/{{jogo.capa_id}}?tipo=barra" alt="disponibilidade" title="disponibilidade" style="max-width: 100%; height: 30px;" />
+                  </span>
+                </div>
+              </div>
+          
+      {% endfor %}
+    </div>
+</div>
