@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Alien Isolation"
 date: 2014-10-07 20:25:30
 category: "Ação e Aventura"

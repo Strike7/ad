@@ -4,7 +4,7 @@ title: ' Aluguel de Jogos - Xbox One '
 jogos:
   - titulo: 'Alien Isolation'
     capa_id: 11
-    imgcover: 'alienisolation.png'     
+    imgcover: 'alienisolation.png'
   - titulo: 'Assassin Creed Unity'
     capa_id: 13
     imgcover: 'assassinscreedunity.png'
@@ -46,7 +46,7 @@ jogos:
     imgcover: 'halo.png'
   - titulo: 'Just Dance 2015'
     capa_id: 34  
-    imgcover: 'justdance2015.png'
+    imgcover: 'justadance2015.png'
   - titulo: 'Killer Instinct'
     capa_id: 35
     imgcover: 'killerinstinct.png'
@@ -56,6 +56,9 @@ jogos:
   - titulo: 'Lords of Fallen'
     capa_id: 40
     imgcover: 'lordsoffallen.png'
+  - titulo: 'Minecraft'
+    capa_id: 78
+    imgcover: 'minecraft.png'  
   - titulo: 'Pay Day 2'
     capa_id: 48
     imgcover: 'payday2.png'
@@ -74,7 +77,7 @@ jogos:
   - titulo: 'Saints Rows'
     capa_id: 56
     imgcover: 'sainsts.png'
-  - titulo: 'Senhor dos anéis sombras de mordor'
+  - titulo: 'Sombras de Mordor'
     capa_id: 57
     imgcover: 'shadowofmordor.png'
   - titulo: 'Sleeping Dog'
