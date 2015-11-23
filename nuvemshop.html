@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Jogos</h1>
+<table>
+  <tbody>
+    {% for jogo in site.jogos %}
+    {% if jogo.title == null %}
+     {% continue %}
+    {% endif %}
+        {% for i in (1..4) %}
+          <tr>
+            <td>
+              {{ jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase}}
+            </td>
+            <td>
+              {{ jogo.title | replace: "- 2 dias + 1" : "" }}
+            </td>
+            <td>
+              Tipo > Aluguel, {{ jogo.category }}
+            </td>
+            <td>
+                Período
+            </td>
+            <td>
+            {% case i %}
+            {% when 1 %}
+                7 dias
+            {% when 2 %}
+                10 dias
+            {% when 3 %}
+                15 dias
+            {% else %}
+                30 dias
+            {% endcase %}
+             </td>
+             <td>
+               &nbsp;
+             </td>
+             <td>
+              &nbsp;
+             </td>
+             <td>
+               &nbsp;
+             </td>
+             <td>
+               &nbsp;
+             </td>
+
+             <td>
+             {% case i %}
+             {% when 1 %}
+                 7.00
+             {% when 2 %}
+                 10.00
+             {% when 3 %}
+                 15.00
+             {% else %}
+                 30.00
+             {% endcase %}
+              </td>
+              <td>
+                &nbsp;
+              </td>
+              <td>
+                0.00
+              </td>
+              <td>
+                &nbsp;
+              </td>
+              <td>
+                &nbsp;
+              </td>
+              <td>
+                SIM
+              </td>
+              <td>
+                SIM
+              </td>
+              <td>
+                Tamanho:{{ jogo.tamanho }}
+                Data de Lançamento: {{ jogo.date }}
+                Desenvolvedor:{{ jogo.desenvolvedor }}
+                Editor:{{ jogo.editor }}
+                Gênero:{{ jogo.category }}
+                Tempo De Jogo: {{ jogo.tempo_campanha }} / {{ jogo.tempo_completo }}
+                {% if i == 1 %}
+                {{ jogo.content }}
+                {% endif %}
+                {% if jogo.cover_id != null %}
+                &#60;span&#62;
+                &#60;img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}?tipo=barra" alt="disponibilidade" title="disponibilidade" style="max-width: 100%; height: auto;"&#62;
+                  &#60;/span &#62;
+                {% endif %}
+
+              </td>
+
+          </tr>
+      {% endfor %}
+{% endfor %}
+
+
+  </tbody>
+</table>
+
+
+
+
+</div>
