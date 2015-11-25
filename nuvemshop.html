@@ -5,33 +5,34 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Jogos</h1>
+
 <table>
   <tbody>
     {% for jogo in site.jogos %}
     {% if jogo.title == null %}
      {% continue %}
     {% endif %}
-        {% for i in (1..4) %}
+        {% for i in (0..4) %}
           <tr>
             <td>
               {{ jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase}}
             </td>
             <td>
-              {{ jogo.title | replace: "- 2 dias + 1" : "" }}
+             Acesso {{ jogo.title | replace: "- 2 dias + 1" : "" }} - Mídia Digital
             </td>
             <td>
-              Tipo > Aluguel, {{ jogo.category }}
+              Tipo > Aluguel, {{ jogo.category }} , Todos
             </td>
             <td>
                 Período
             </td>
             <td>
             {% case i %}
-            {% when 1 %}
+            {% when 0 %}
                 7 dias
-            {% when 2 %}
+            {% when 1 %}
                 10 dias
-            {% when 3 %}
+            {% when 2 %}
                 15 dias
             {% else %}
                 30 dias
@@ -50,17 +51,10 @@ layout: default
                &nbsp;
              </td>
 
-             <td>
-             {% case i %}
-             {% when 1 %}
-                 7.00
-             {% when 2 %}
-                 10.00
-             {% when 3 %}
-                 15.00
-             {% else %}
-                 30.00
-             {% endcase %}
+              <td>
+
+               {{jogo.prices[i]}}
+
               </td>
               <td>
                 &nbsp;
@@ -78,25 +72,64 @@ layout: default
                 SIM
               </td>
               <td>
-                SIM
+                NAO
               </td>
               <td>
-                Tamanho:{{ jogo.tamanho }}
-                Data de Lançamento: {{ jogo.date }}
-                Desenvolvedor:{{ jogo.desenvolvedor }}
-                Editor:{{ jogo.editor }}
-                Gênero:{{ jogo.category }}
-                Tempo De Jogo: {{ jogo.tempo_campanha }} / {{ jogo.tempo_completo }}
-                {% if i == 1 %}
-                {{ jogo.content }}
-                {% endif %}
-                {% if jogo.cover_id != null %}
-                &#60;span&#62;
-                &#60;img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}?tipo=barra" alt="disponibilidade" title="disponibilidade" style="max-width: 100%; height: auto;"&#62;
-                  &#60;/span &#62;
-                {% endif %}
+                {% capture generated %}
+                <div style="background-color: #f0f0f0;" >
+                <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 20px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+                    <header>
+                        <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
+                            Detalhe do jogo</h3>
+                    </header>
+                    <div style="font-family: 'Segoe UI',Arial,Sans-Serif; font-size: 15px; line-height: 22px;">
+                        <div>
+                            <ul class="fields" style="padding:20px" >
+                                <li id="gameSize"><label
+                                        style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tamanho</strong>:</label><span>{{ jogo.tamanho }}</span>
+                                </li>
+                                <li id="gameReleaseDate"><label
+                                        style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Data
+                                    de lan&ccedil;amento</strong>:</label> <span>{{ jogo.date | date: "%d/%m/%y" }}</span></li>
+                                <li id="gameDeveloper"><label
+                                        style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Desenvolvedor</strong>:</label><span>{{ jogo.desenvolvedor }}</span>
+                                </li>
+                                <li id="gamePublisher"><label
+                                        style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Editor</strong>:</label><span>{{ jogo.editor }}</span>
+                                </li>
+                                <li id="gameGenre"><label
+                                        style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>G&ecirc;nero</strong>:</label><span>{{ jogo.category }}</span>
+                                </li>
+                                <li id="gameHour"><label
+                                        style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Tempo
+                                    de jogo</strong>:</label><span>{{ jogo.tempo_campanha }} / {{ jogo.tempo_completo }} horas</span></li>
+                            </ul>
+                        </div>
 
-              </td>
+                    </div>
+                </div>
+
+                <div style="position: relative; margin: 32px auto; width: 90%; background-color: #ffffff; padding: 16px 20px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+                    <header>
+                        <h3 style="font-family: 'Segoe UI Light',Arial,Sans-Serif; font-size: 30px; font-weight: normal; line-height: 34px;">
+                            Descrição</h3>
+                    </header>
+                    <div style="font-family: 'Segoe UI',Arial,Sans-Serif; font-size: 15px; line-height: 22px;">
+                      {{ jogo.content }}
+                    </div>
+                </div>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/{{jogo.youtube | remove: "https://www.youtube.com/watch?v=" }}" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+
+                {% endcapture %}
+
+                {% highlight html %}
+                {{generated }}
+                {% endhighlight %}
+
+                &nbsp;
+               </td>
 
           </tr>
       {% endfor %}
@@ -105,8 +138,6 @@ layout: default
 
   </tbody>
 </table>
-
-
 
 
 </div>

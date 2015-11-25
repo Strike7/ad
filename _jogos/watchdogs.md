@@ -13,7 +13,8 @@ cover: "whatdog.png"
 background_image: "watchdog.jpg"
 cover_id: 68
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=KpIeWxsfBos"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 
 periodos:
   - descricao: '3 dias'

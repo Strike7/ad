@@ -12,8 +12,8 @@ tempo_completo: 37
 cover: "dmc.png"
 background_image: "dmc.jpg"
 images: ["dmc_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=yRNgbl1btWE"
-prices: ["5,90", "10,90", "18,90", "25,40"]
+youtube: "https://www.youtube.com/watch?v=sWnHx0w8PMI"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 ---
 
 A versão definitiva deste jogo de ação aclamado pela crítica chega com gráficos atualizados para 1080p e 60fps, novas funções e ainda inclui todo o conteúdo por download original. Crie combinações sofisticadas com até oito armas exclusivas. Atravesse o mundo demoníaco do Limbo e junte-se a Dante e Vergil no lendário renascimento da franquia Devil May Cry

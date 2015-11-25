@@ -3,7 +3,7 @@ layout: mercadolivre-individual
 title: "Assassin's Creed Syndicate "
 date: 2015-10-23 20:25:30
 category: "Ação e Aventura"
-tamanho: "0 GB"
+tamanho: "45,33 GB"
 estrelas: 4,5
 desenvolvedor: "343 Industries"
 editor: "Microsoft Studios"
@@ -13,7 +13,8 @@ cover: "acsyndicate.png"
 cover_id: 80
 background_image: "acsyndicate.jpg"
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=mVGBY0-7te8"
+prices: ["14,00", "20,00", "30,00", "60,00"]
 
 periodos:
   - descricao: '4 dias'

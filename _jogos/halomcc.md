@@ -13,7 +13,8 @@ cover: "halo.png"
 background_image: "halo.jpg"
 cover_id: 32
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=4ibiFHwlNRU"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 
 periodos:
   - descricao: '3 dias'

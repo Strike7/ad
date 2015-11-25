@@ -12,8 +12,8 @@ tempo_completo: 0
 cover: "madmax.png"
 background_image: "madmax.jpg"
 images: ["battlefield_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=FxMmLNKbsjs"
-prices: ["5,90", "10,90", "18,90", "25,40"]
+youtube: "https://www.youtube.com/watch?v=aBHBXOBKyAM"
+prices: ["9,10", "13,00", "19,50", "39,00"]
 ---
 
 Torne-se Mad Max, um guerreiro solitário em um mundo selvagem pós-apocalíptico onde carros são a chave para a sobrevivência. Neste jogo de mundo aberto em terceira pessoa repleto de ação, você precisa lutar para sobreviver na Terra Desolada usando técnicas de combate a pé, ou no volante, contra gangues de bandidos ferozes. Um herói relutante com instinto de sobrevivência, não há nada que Max queira mais do que deixar a loucura para trás e encontrar um pouco de paz nas lendárias "Planícies do Silêncio". Os jogadores são desafiados com missões traiçoeiras à medida que saqueiam um mundo perigoso em busca de recursos para construir o veículo de combate definitivo.

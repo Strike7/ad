@@ -13,8 +13,8 @@ cover: "pes16.png"
 background_image: "pes16.jpg"
 cover_id: 70
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
-
+youtube: "https://www.youtube.com/watch?v=WaDcV2STcnw"
+prices: ["14,00", "20,00", "30,00", "60,00"]
 periodos:
   - descricao: '4 dias'
     link: 'http://produto.mercadolivre.com.br/MLB-680190624-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'

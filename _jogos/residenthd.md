@@ -14,6 +14,7 @@ background_image: "residenthd.jpg"
 cover_id: 52
 images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+prices: ["4,90", "7,00", "10,5", "21,00"]
 
 periodos:
   - descricao: '3 dias'

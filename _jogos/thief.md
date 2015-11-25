@@ -12,7 +12,8 @@ tempo_completo: 39
 cover: "thief.png"
 background_image: "thief.jpg"
 images: ["thief.jpg"]
-youtube: "https://www.youtube.com/watch?v=eCr135Ffnwo"
+youtube: "https://www.youtube.com/watch?v=xIVytV5258A"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 
 ---
 

@@ -13,7 +13,8 @@ cover: "payday2.png"
 background_image: "payday2.jpg"
 cover_id: 48
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=_y7RF4ctLik"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 
 periodos:
   - descricao: '3 dias'

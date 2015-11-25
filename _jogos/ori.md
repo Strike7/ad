@@ -13,7 +13,8 @@ cover: "ori.png"
 background_image: "ori.jpg"
 cover_id: 46
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=yZOqrskZ6lI"
+prices: ["4,90", "7,00", "10,5", "21,00"]
 
 periodos:
   - descricao: '3 dias'

@@ -13,7 +13,8 @@ cover: "residentreveletion2.png"
 background_image: "resident2.jpg"
 cover_id: 54
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=IZC5jzSDS0Y"
+prices: ["4,90", "7,00", "10,5", "21,00"]
 
 periodos:
   - descricao: '3 dias'

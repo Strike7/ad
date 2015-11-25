@@ -13,7 +13,8 @@ cover: "dishonored.png"
 background_image: "dishonored.jpg"
 cover_id: 24
 images: ["mkx_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=oFNDnUYvsTo"
+youtube: "https://www.youtube.com/watch?v=0OQh3MCf9go"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 
 periodos:
   - descricao: '3 dias'

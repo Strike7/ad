@@ -1,6 +1,6 @@
 ---
 layout: mercadolivre-base
-title: "Killer Instinct - 2 dias + 1 "
+title: "Killer Instinct  "
 date: 2013-11-22 20:25:30
 category: "Ação e Aventura, Luta"
 tamanho: "21,53 GB"
@@ -12,8 +12,8 @@ tempo_completo: 2
 cover: "killerinstinct.png"
 background_image: "killerinstinct.jpg"
 images: ["battlefield_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=FxMmLNKbsjs"
-prices: ["5,90", "10,90", "18,90", "25,40"]
+youtube: "https://www.youtube.com/watch?v=d_rGfXw2x7k"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 ---
 
 

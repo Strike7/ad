@@ -12,8 +12,8 @@ tempo_completo: 42
 cover: "deadrising3.png"
 background_image: "backdeadrising.jpg"
 images: ["battlefield_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=ZEn3QIzQcFA"
-prices: ["5,90", "10,90", "18,90", "25,40"]
+youtube: "https://www.youtube.com/watch?v=6BoQ_aRN4Kg"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 ---
 
 ssa versão de Dead Rising 3 não está mais disponível, já que foi substituída pelo Dead Rising 3 Apocalypse Edition, que inclui todos os quatro DLCs e um item digital extra.

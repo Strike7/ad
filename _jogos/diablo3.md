@@ -12,8 +12,8 @@ tempo_completo: 97
 cover: "diablo3.png"
 background_image: "diablo3.jpg"
 images: ["diablo3_marked.jpg","diablo3_2.jpg","diablo3_3.jpg","diablo3_4.jpg"]
-youtube: "https://www.youtube.com/watch?v=NWa41eJjr0c"
-prices: ["4,90", "9,90", "16,90", "21,60"]
+youtube: "https://www.youtube.com/watch?v=DG9v24UzTqU"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 ---
 
 A Ultimate Evil Edition contém Diablo III e a expansão Reaper of Souls reunidas em um volume definitivo. Assuma seu posto como um dos últimos defensores da humanidade: cruzado, bárbaro, feiticeiro, caçador de demônios, monge ou arcanista. Obtenha tesouros lendários enquanto aprende e domina novos e devastadores poderes e habilidades. Jogue solo ou forme um grupo de até quatro heróis com jogadores próximos ou via online. Dizime as hordas malignas em cinco atos da história de Diablo III ou explore o mundo aberto no Modo Aventura para caçar males ancestrais que espreitam os reinos mortais e obter recompensas.

@@ -12,8 +12,8 @@ tempo_completo: 38
 cover: "theevilwithin.png"
 background_image: "theevilwithin.jpg"
 images: ["theevilwithin_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=sCaTIILSDNk"
-prices: ["4,90", "9,90", "16,90", "21,60"]
+youtube: "https://www.youtube.com/watch?v=nF1D8bbX3XA"
+prices: ["6,86", "9,80", "14,7", "29,40"]
 ---
 
 Desenvolvido por Shinji Mikami e a talentosa equipe da Tango Gameworks, The Evil Within é a apoteose do significado de puro horror de sobrevivência. Ambientes cuidadosamente criados, ansiedade aterradora e uma história complexa se combinam para criar um mundo imersivo que irá te levar ao limite da tensão. Com recursos limitados à sua disposição, você irá lutar pela sobrevivência e experimentar um medo profundo nesta mistura perfeita de horror e ação.

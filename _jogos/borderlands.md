@@ -12,7 +12,8 @@ tempo_completo: 57
 cover: "borderlands.png"
 background_image: "borderlands.jpg"
 images: ["darksoul2_marked.jpg"]
-youtube: "https://www.youtube.com/watch?v=eCr135Ffnwo"
+prices: ["6,86", "9,80", "14,7", "29,40"]
+youtube: "https://www.youtube.com/watch?v=_1os2jtS36M"
 cover_id: 16
 
 periodos:
