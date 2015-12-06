@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Dead Rising 3"
 date: 2013-11-22 20:25:30
 category: "Ação e Aventura"
@@ -10,6 +10,7 @@ editor: "Microsoft Studios"
 tempo_campanha: 15
 tempo_completo: 42
 cover: "deadrising3.png"
+cover_id: 20
 background_image: "backdeadrising.jpg"
 images: ["battlefield_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=6BoQ_aRN4Kg"

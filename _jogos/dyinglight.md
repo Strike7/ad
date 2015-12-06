@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Dying Light"
 date: 2014-12-27 20:25:30
 category: "Ação e Aventura"
@@ -12,6 +12,7 @@ tempo_completo: 49
 cover: "dyinglight.png"
 background_image: "dyinglight.jpg"
 images: ["dyinglight_marked.jpg"]
+cover_id: 27
 youtube: "https://www.youtube.com/watch?v=OaNHOLr2iCc"
 prices: ["6,86", "9,80", "14,7", "29,40"]
 ---

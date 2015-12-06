@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-baselancamentos
+layout: mercadolivre-individual
 title: "Prototype (Bundle 1 e 2)"
 date: 2015-07-14 20:25:30
 category: "Ação e Aventura"
@@ -9,6 +9,7 @@ desenvolvedor: "Radical Entertainment"
 editor: "FunLabs	Activision"
 tempo_campanha: 11
 tempo_completo: 33
+cover_id: 50
 cover: "prototype.png"
 background_image: "prototype.jpg"
 images: ["battlefield_marked.jpg"]

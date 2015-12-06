@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Just Dance 2015"
 date: 2014-10-07 20:25:30
 category: "Música"
@@ -9,6 +9,7 @@ desenvolvedor: "Ubisoft"
 editor: "Ubisoft"
 tempo_campanha: 0
 tempo_completo: 0
+cover_id: 34
 cover: "justadance.png"
 background_image: "justdance2015.jpg"
 images: ["darksoul2_marked.jpg"]

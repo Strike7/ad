@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-baselancamentos
+layout: mercadolivre-individual
 title: "Batman Arkham Knight "
 date: 2015-06-23 20:25:30
 category: "Ação e Aventura"
@@ -9,9 +9,9 @@ desenvolvedor: "Rocksteady Studios"
 editor: "Warner Bros. Interactive Entertainment"
 tempo_campanha: 14
 tempo_completo: 41
+cover_id: 14
 cover: "batmanknight.png"
 background_image: "batmanknight.jpg"
-images: ["battlefield_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=W2Yjqfkzc_w"
 prices: ["9,10", "13,00", "19,50", "39,00"]
 ---

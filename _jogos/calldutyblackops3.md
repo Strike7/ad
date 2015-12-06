@@ -12,7 +12,6 @@ tempo_completo: 0
 cover: "calldutyblackops.png"
 cover_id: 85
 background_image: "calldutyblackops3.jpg"
-images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=7a1O7M5-9Ho"
 prices: ["14,00", "20,00", "30,00", "60,00"]
 

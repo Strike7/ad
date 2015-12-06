@@ -1,14 +1,15 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "The Witcher 3 Wild Hunter"
 date: 2015-03-17 20:25:30
-category: "Açao e Aventura"
+category: "Ação e Aventura"
 tamanho: "25,44 GB"
 estrelas: 4,5
 desenvolvedor: "CD PROJEKT "
 editor: "CD PROJEKT SA"
 tempo_campanha: 40
 tempo_completo: 81
+cover_id: 65
 cover: "thewitcher3wildhunt.png"
 background_image: "the_witcher3.jpg"
 images: ["the_witcher_3_marked.jpg"]

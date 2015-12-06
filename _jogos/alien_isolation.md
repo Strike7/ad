@@ -3,15 +3,15 @@ layout: mercadolivre-individual
 title: "Alien Isolation"
 date: 2014-10-07 20:25:30
 category: "Ação e Aventura"
-tamanho: "24,41 GB"
+tamanho: "33,63 GB"
 estrelas: 4,5
 desenvolvedor: "The Creative Assembly"
 editor: "SEGA Europe Ltd"
 tempo_campanha: 18
 tempo_completo: 32
+cover_id: 11
 cover: "alienisolation.png"
 background_image: "backalien.jpg"
-images: ["darksoul2_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=1BRz_s3Zvaw"
 prices: ["6,86", "9,80", "14,7", "29,40"]
 ---

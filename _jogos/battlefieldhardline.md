@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "BattleField Hardline"
 date: 2015-03-17 20:25:30
 category: "Tiro"
@@ -9,9 +9,9 @@ desenvolvedor: "Visceral"
 editor: "Eletronic Arts"
 tempo_campanha: 7
 tempo_completo: 30
+cover_id: 15
 cover: "battlefieldhardline.png"
 background_image: "battlefielHardLine.jpg"
-images: ["battlefield_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=AxROTqL4_1o"
 prices: ["6,86", "9,80", "14,7", "29,40"]
 ---

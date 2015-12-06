@@ -1,10 +1,11 @@
 ---
-layout: mercadolivre-baselancamentos
+layout: mercadolivre-individual
 title: "Metal Gear Phanton Pain"
 date: 2015-09-01 20:25:30
 category: "Ação e Aventura"
 tamanho: "0 GB"
 estrelas: 4
+cover_id: 42
 desenvolvedor: "Konami Digital Entertainment"
 editor: "Konami Digital Entertainment"
 tempo_campanha: N/D

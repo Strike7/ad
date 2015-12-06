@@ -9,6 +9,7 @@ desenvolvedor: "Red Barrels"
 editor: "Red Barrels"
 tempo_campanha: 5
 tempo_completo: 7
+cover_id: 47
 cover: "outlast.png"
 background_image: "outlast.jpg"
 images: ["outlast_mark.jpg","outlastpaper1.jpg","outlastpaper2.jpg","outlastpaper3.jpg","outlastpaper4.jpg"]

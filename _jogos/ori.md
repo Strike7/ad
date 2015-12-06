@@ -2,7 +2,7 @@
 layout: mercadolivre-individual
 title: " Ori and the Blind Forest "
 date: 2015-03-11 20:25:30
-category: "Corrida e Vôo"
+category: "Açao e Aventura"
 tamanho: "7,6 GB"
 estrelas: 4,5
 desenvolvedor: "Moon Studios "

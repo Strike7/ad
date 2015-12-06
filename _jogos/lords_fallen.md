@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Lords of Fallen"
 date: 2014-10-28 20:25:30
 category: "RPG"
@@ -7,11 +7,11 @@ tamanho: "5,95 GB"
 estrelas: 3
 desenvolvedor: "CI Games, Deck 13"
 editor: "CI Games"
+cover_id: 40
 tempo_campanha: 13
 tempo_completo: 37
 cover: "lordsoffallen.png"
-background_image: "8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.jpg"
-images: ["91DBGiF-YqL._SL1500_.jpg", screenlordsfallen1.jpg","screenlordsfallen2.jpg", "screenlordsfallen3.jpg"]
+background_image: "lordsoffallen.jpg"
 youtube: "https://www.youtube.com/watch?v=aBHBXOBKyAM"
 prices: ["6,86", "9,80", "14,7", "29,40"]
 ---

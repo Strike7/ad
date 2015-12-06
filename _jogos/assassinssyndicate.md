@@ -3,24 +3,17 @@ layout: mercadolivre-individual
 title: "Assassin's Creed Syndicate "
 date: 2015-10-23 20:25:30
 category: "Ação e Aventura"
-tamanho: "45,33 GB"
-estrelas: 4,5
-desenvolvedor: "343 Industries"
-editor: "Microsoft Studios"
+tamanho: "40,28 GB"
+estrelas: 4
+desenvolvedor: "Ubisoft Quebec"
+editor: "Ubisoft"
 tempo_campanha: 0
 tempo_completo: 0
 cover: "acsyndicate.png"
 cover_id: 80
 background_image: "acsyndicate.jpg"
-images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=mVGBY0-7te8"
 prices: ["14,00", "20,00", "30,00", "60,00"]
-
-periodos:
-  - descricao: '4 dias'
-    link: 'http://produto.mercadolivre.com.br/MLB-680190624-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'
-  - descricao: '8 dias'
-    link: 'http://produto.mercadolivre.com.br/MLB-680186941-aluguel-locaco-de-jogos-xbox-one-midia-digital-_JM'
 
 ---
 

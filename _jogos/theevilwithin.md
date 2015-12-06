@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "The Evil Within"
 date: 2014-10-14 20:25:30
 category: "Ação e Aventura"
@@ -9,6 +9,7 @@ desenvolvedor: "Tango Gameworks"
 editor: "Bethesda Softworks"
 tempo_campanha: 16
 tempo_completo: 38
+cover_id: 64
 cover: "theevilwithin.png"
 background_image: "theevilwithin.jpg"
 images: ["theevilwithin_marked.jpg"]

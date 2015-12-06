@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Thief"
 date: 2015-03-24 20:25:30
 category: "Ação e Aventura"
@@ -10,6 +10,7 @@ editor: "Square Enix"
 tempo_campanha: 10
 tempo_completo: 39
 cover: "thief.png"
+cover_id: 66
 background_image: "thief.jpg"
 images: ["thief.jpg"]
 youtube: "https://www.youtube.com/watch?v=xIVytV5258A"

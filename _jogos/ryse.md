@@ -1,14 +1,15 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Ryse"
 date: 2015-04-07 20:25:30
-category: "Ação e Aventura, Luta"
+category: "Ação e Aventura"
 tamanho: "36,96 GB"
 estrelas: 4,5
 desenvolvedor: "Crytek"
 editor: "Microsoft Studios"
 tempo_campanha: 7
 tempo_completo: 15
+cover_id: 55
 cover: "ryse.png"
 background_image: "backryse.jpg"
 images: ["ryse_marked.jpg"]

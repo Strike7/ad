@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Project Cars"
 date: 2015-05-15 20:25:30
 category: "Corrida e Vôo"
@@ -9,6 +9,7 @@ desenvolvedor: "Slightly Mad Studios"
 editor: "BANDAI NAMCO Entertainment"
 tempo_campanha: 0
 tempo_completo: 100
+cover_id: 49
 cover: "projectcars.png"
 background_image: "backprojectcars.jpg"
 images: ["projectcars_marked.jpg"]

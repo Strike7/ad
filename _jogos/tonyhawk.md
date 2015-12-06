@@ -2,7 +2,7 @@
 layout: mercadolivre-individual
 title: "Tony Hawk's Pro Skater 5 "
 date: 2015-09-29 20:25:30
-category: "Sports & Recreation"
+category: "Esporte"
 tamanho: "8,7 GB"
 estrelas: 2,5
 desenvolvedor: "Robomodo, Disruptive Games"

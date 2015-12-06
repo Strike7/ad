@@ -1,14 +1,15 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Sunset Overdriver"
 date: 2014-10-28 20:25:30
-category: "Ação e Aventura, Tiro"
+category: "Tiro"
 tamanho: "26,06 GB"
 estrelas: 4
 desenvolvedor: "Insomniac Games"
 editor: "Microsoft Studios"
 tempo_campanha: 9
 tempo_completo: 29
+cover_id: 62
 cover: "sunset.png"
 background_image: "sunset.jpg"
 images: ["sunset_marked.jpg","sunset2.jpg","sunset3.jpg","sunset4.jpg"]

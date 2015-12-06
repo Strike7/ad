@@ -1,8 +1,8 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Destiny"
 date: 2014-09-09 20:25:30
-category: "Ação e Aventura, Tiro"
+category: "Tiro"
 tamanho: "25,07 GB"
 estrelas: 4,5
 desenvolvedor: "Bungie"
@@ -10,6 +10,7 @@ editor: "Activision"
 tempo_campanha: 11
 tempo_completo: 304
 cover: "destiny.png"
+cover_id: 21
 background_image: "destiny.jpg"
 images: ["destiny_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=yT0_2f0v7WQ"

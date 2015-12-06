@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Dark Soul 2"
 date: 2015-04-07 20:25:30
 category: "RPG"
@@ -9,6 +9,7 @@ desenvolvedor: "FromSoftware, Inc."
 editor: "BANDAI NAMCO"
 tempo_campanha: 32
 tempo_completo: 75
+cover_id: 18
 cover: "darksoul2.png"
 background_image: "darksoul2.jpg"
 images: ["darksoul2_marked.jpg"]

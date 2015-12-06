@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Assassins Creed Chronicles China"
 date: 2015-04-22 20:25:30
 category: "Ação e Aventura"
@@ -9,9 +9,9 @@ desenvolvedor: "Climax Studios"
 editor: "	Ubisoft"
 tempo_campanha: 6
 tempo_completo: 14
-cover: "assassinschronicles.png"
-background_image: "assassinscreedchronicleschina.jpg"
-images: ["assassinschronicles.jpg"]
+cover_id: 12
+cover: "assassinscreedchina.png"
+background_image: "assassinscreedchina.jpg"
 youtube: "https://www.youtube.com/watch?v=uaWfdtemO0Y"
 prices: ["4,90", "7,00", "10,5", "21,00"]
 ---

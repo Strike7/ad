@@ -2,7 +2,7 @@
 layout: mercadolivre-individual
 title: "Rare Replay"
 date: 2015-08-04 20:25:30
-category: "Ação e Aventura, Clássicos, Jogo de Plataforma, Luta, Tiro"
+category: "Ação e Aventura"
 tamanho: "11,41 GB"
 estrelas: 4,5
 desenvolvedor: "Rare"

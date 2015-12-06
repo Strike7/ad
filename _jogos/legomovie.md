@@ -2,7 +2,7 @@
 layout: mercadolivre-individual
 title: "The LEGO Movie Videogame "
 date: 2014-02-07 20:25:30
-category: "Ação e Aventura, Família"
+category: "Ação e Aventura"
 tamanho: "6,85 GB"
 estrelas: 4,5
 desenvolvedor: "Traveller's Tales"

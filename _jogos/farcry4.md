@@ -1,8 +1,8 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Far Cry 4"
 date: 2014-11-18 20:25:30
-category: "Ação e Aventura, Tiro"
+category: "Tiro"
 tamanho: "21,29 GB"
 estrelas: 4,5
 desenvolvedor: "Ubisoft Entertainment"
@@ -10,6 +10,7 @@ editor: "Ubisoft Entertainment"
 tempo_campanha: 16
 tempo_completo: 43
 cover: "farcry4.png"
+cover_id: 29
 background_image: "farcry4.jpg"
 images: ["farcry4_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=DCXKTo1E4A8"

@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Spiderman 2 "
 date: 2014-05-02 20:25:30
 category: "Ação e Aventura"
@@ -9,6 +9,7 @@ desenvolvedor: "Beenox	Activision"
 editor: "Microsoft Studios"
 tempo_campanha: 8
 tempo_completo: 31
+cover_id: 60
 cover: "spiderman2.png"
 background_image: "spiderman2.jpg"
 images: ["battlefield_marked.jpg"]

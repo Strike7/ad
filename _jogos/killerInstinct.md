@@ -1,14 +1,15 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Killer Instinct  "
 date: 2013-11-22 20:25:30
-category: "Ação e Aventura, Luta"
+category: "Luta"
 tamanho: "21,53 GB"
 estrelas: 4
 desenvolvedor: "Iron Galaxy"
 editor: "Microsoft Studios"
 tempo_campanha: 1
 tempo_completo: 2
+cover_id: 35
 cover: "killerinstinct.png"
 background_image: "killerinstinct.jpg"
 images: ["battlefield_marked.jpg"]

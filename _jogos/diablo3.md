@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Diablo 3 Soul Reaper"
 date: 2015-03-10 20:25:30
 category: "Ação e Aventura"
@@ -10,6 +10,7 @@ editor: "Blizzard Entertainment"
 tempo_campanha: 15
 tempo_completo: 97
 cover: "diablo3.png"
+cover_id: 23
 background_image: "diablo3.jpg"
 images: ["diablo3_marked.jpg","diablo3_2.jpg","diablo3_3.jpg","diablo3_4.jpg"]
 youtube: "https://www.youtube.com/watch?v=DG9v24UzTqU"

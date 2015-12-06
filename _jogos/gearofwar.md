@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Gear of War Ultimate Edition"
 date: 2015-08-25 20:25:30
 category: "Tiro"
@@ -9,6 +9,7 @@ desenvolvedor: "The Coalition"
 editor: "Microsoft Studios"
 tempo_campanha: 0
 tempo_completo: 0
+cover_id: 31
 cover: "gearofwar.png"
 background_image: "gearofwar.jpg"
 images: ["callofdutyghost_marked.jpg","callofdutyghost2.jpg","callofdutyghost3.jpg","callofdutyghost4.jpg"]

@@ -1,14 +1,15 @@
 ---
-layout: mercadolivre-base
-title: "Shadow of Mordor - Sombras de Mordor"
-date: 2014-09-30 20:25:30
-category: "Ação e Aventura, RPG"
+layout: mercadolivre-individual
+title: "Sombras de Mordor"
+date: 2014-09-12 20:25:30
+category: "Ação e Aventura"
 tamanho: "28,43 GB"
 estrelas: 4,5
 desenvolvedor: "Monolith Productions, Inc."
 editor: "Warner Brothers Interactive"
 tempo_campanha: 14
 tempo_completo: 30
+cover_id: 57
 cover: "shadowofmordor.png"
 background_image: "sombrasmordor.jpg"
 images: ["shadowofmordor_marked.jpg","shadowofmordor2.jpg",shadowofmordor3.jpg",shadowofmordor4.jpg"]

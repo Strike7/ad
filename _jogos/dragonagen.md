@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Dragon Age Inquisition"
 date: 2014-11-18 20:25:30
 category: "RPG"
@@ -12,6 +12,7 @@ tempo_completo: 121
 cover: "dragonageinquisition.png"
 background_image: "dragonage.jpg"
 images: ["dragonage_marked.jpg"]
+cover_id: 26
 youtube: "https://www.youtube.com/watch?v=zHM8KELJ1qI"
 prices: ["6,86", "9,80", "14,7", "29,40"]
 ---

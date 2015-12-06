@@ -2,7 +2,7 @@
 layout: mercadolivre-individual
 title: " Minecraft "
 date: 2014-09-05 20:25:30
-category: "Ação e Aventura, Família"
+category: "Ação e Aventura"
 tamanho: "669,31 MB"
 estrelas: 4,0
 desenvolvedor: "Mojang / 4J Studios"
@@ -14,7 +14,7 @@ background_image: "minecraft.jpg"
 cover_id: 78
 images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=tEhwY1nqlmI"
-prices: ["6,86", "9,80", "14,7", "29,40"]
+prices: ["4,90", "7,00", "10,5", "21,00"]
 
 periodos:
   - descricao: '3 dias'

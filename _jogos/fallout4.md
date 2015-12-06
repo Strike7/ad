@@ -1,16 +1,17 @@
 ---
-layout: mercadolivre-baselancamentos
+layout: mercadolivre-individual
 title: "Fallout 4"
-date: 2015-09-01 20:25:30
+date: 2015-11-10 20:25:30
 category: "Ação e Aventura"
-tamanho: "0 GB"
+tamanho: "28,12 GB"
 estrelas: 4
-desenvolvedor: "Konami Digital Entertainment"
-editor: "Konami Digital Entertainment"
+desenvolvedor: "Bethesda Game Studios"
+editor: "Bethesda Softworks"
 tempo_campanha: N/D
 tempo_completo: N/D
-cover: "metalgearphanton.png"
-background_image: "metalgearphanton.jpg"
+cover: "fallout4.png"
+background_image: "fallout4.jpg"
+cover_id: 86
 images: ["assassinschronicles.jpg"]
 youtube: "https://www.youtube.com/watch?v=zpbmrVSH6DM"
 prices: ["14,00", "20,00", "30,00", "60,00"]

@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Devil May Cry DMC"
 date: 2015-03-10 20:25:30
 category: "Ação e Aventura"
@@ -10,6 +10,7 @@ editor: "Capcom"
 tempo_campanha: 9
 tempo_completo: 37
 cover: "dmc.png"
+cover_id: 25
 background_image: "dmc.jpg"
 images: ["dmc_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=sWnHx0w8PMI"

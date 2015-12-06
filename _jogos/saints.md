@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Saints Row IV: Re-Elected & Gat out of Hell"
 date: 2015-01-20 20:25:30
 category: "Ação e Aventura"
@@ -10,6 +10,7 @@ editor: "Deep Silver"
 tempo_campanha: 4
 tempo_completo: 16
 cover: "sainsts.png"
+cover_id: 56
 background_image: "saints.jpg"
 images: ["saints_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=OvAJIVSLqK4"

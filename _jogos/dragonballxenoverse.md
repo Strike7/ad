@@ -1,8 +1,8 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Dragon Ball Xenoverse"
 date: 2015-02-24 20:25:30
-category: "Ação e Aventura, Luta"
+category: "Ação e Aventura"
 tamanho: "9,96 GB"
 estrelas: 4
 desenvolvedor: "Dimps "
@@ -12,6 +12,7 @@ tempo_completo: 108
 cover: "dbzxenoverse.png"
 background_image: "dbz.jpg"
 images: ["dbz_marked.jpg"]
+cover_id: 19
 youtube: "https://www.youtube.com/watch?v=Sd9p--N5280"
 prices: ["6,86", "9,80", "14,7", "29,40"]
 ---

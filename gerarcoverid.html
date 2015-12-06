@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Jogos</h1>
+
+<table>
+  <tbody>
+    {% for jogo in site.jogos %}
+      {% if jogo.title == null %}
+        {% continue %}
+      {% endif %}
+
+      <tr>
+        <td>
+          '{{ jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase}}' : {{jogo.cover_id}},
+        </td>
+      </tr>
+
+    {% endfor %}
+
+
+  </tbody>
+</table>
+
+
+</div>

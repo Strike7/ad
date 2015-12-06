@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Evolve"
 date: 2015-02-10 20:25:30
 category: "Tiro"
@@ -10,6 +10,7 @@ editor: "2K"
 tempo_campanha: 1
 tempo_completo: 0
 cover: "evolve.png"
+cover_id: 75
 background_image: "evolve.jpg"
 images: ["evolve_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=6ZSe5ILaZqQ"

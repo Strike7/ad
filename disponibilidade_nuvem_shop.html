@@ -1,0 +1,166 @@
+---
+layout: default
+---
+
+
+{% capture generated %}
+<style>
+.a visited{
+  color: white;
+}
+.a {
+  color:white;
+}
+.a hover{
+  color: white;
+}
+</style>
+
+<div style="background-color: #f0f0f0;margin:0 auto;max-width:1200px;">
+  <div class="anuncio-ml" style="text-align: center;position: relative; margin: 32px auto;max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+      <div>
+        <img src="https://s3-sa-east-1.amazonaws.com/strike7-image/lista_jogos_email/topo.png" style="width:100%" alt="Generic placeholder thumbnail">
+      </div>
+  </div>
+
+
+
+  <div style="background-color:#D2D028;color:white;height:40px;text-align:center;font-size:28px;font-weight:bold;">
+    Ação e Aventura
+  </div>
+
+    <div style=" text-align: center;margin: 0 auto; max-width:1200px background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+      {% for jogo in site.jogos %}
+
+          {% if jogo.cover_id != null and jogo.cover_id != 76 and jogo.cover_id != 78 %}
+
+              {% if jogo.category == 'Ação e Aventura' %}
+              {% assign idurl = jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase %}
+              <a href="http://loja.strikesete.com.br/acao-e-aventura/{{idurl}}" target="_blank">
+                <div  style="font-weight:bold;color:white;padding:0px;margin-left:0px;margin-right:0px;margin-top:0.5%;margin-bottom:0.5%;min-width:130px;width:12%;display: inline-block;">
+                        <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}" title="{{jogo.titulo}}"  style="width:100%;margin:0px;" />
+                        <div style="background-color:#000080;margin-top:-5px;height:24px;font-size:18px;border-radius:5px;width:100%;">
+                          Alugar
+                        </div>
+
+                </div>
+              </a>
+             {% endif %}{% endif %}{% endfor %}
+    </div>
+    <div style="background-color:#D2D028;color:white;height:40px;text-align:center;font-size:28px;font-weight:bold;">
+       Tiro
+    </div>
+
+    <div style=" text-align: center;margin: 0 auto; max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+      {% for jogo in site.jogos %}
+          {% if jogo.cover_id != null and jogo.cover_id != 85 %}
+
+              {% if jogo.category == 'Tiro' %}
+              {% assign idurl = jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase %}
+              <a href="http://loja.strikesete.com.br/tiro/{{idurl}}" target="_blank">
+                <div  style="font-weight:bold;color:white;padding:0px;margin-left:0px;margin-right:0px;margin-top:0.5%;margin-bottom:0.5%;min-width:130px;width:12%;display: inline-block;">
+                        <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}" title="{{jogo.titulo}}"  style="height:180px;width:100%;margin:0px;" />
+                        <div style="background-color:#000080;margin-top:-5px;height:24px;font-size:18px;border-radius:5px;width:100%;">
+                          Alugar
+                        </div>
+                </div>
+              </a>
+
+          {% endif %}{% endif %}{% endfor %}
+    </div>
+
+      <div style="background-color:#D2D028;color:white;height:40px;text-align:center;font-size:28px;font-weight:bold;">
+         Esporte
+      </div>
+      <div style=" text-align: center;margin: 0 auto; max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+        {% for jogo in site.jogos %}
+            {% if jogo.cover_id != null  %}
+
+                {% if jogo.category == 'Esporte' %}
+                {% assign idurl = jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase %}
+                <a href="http://loja.strikesete.com.br/esporte/{{idurl}}" target="_blank">
+                  <div  style="font-weight:bold;color:white;padding:0px;margin-left:0px;margin-right:0px;margin-top:0.5%;margin-bottom:0.5%;min-width:130px;width:12%;display: inline-block;">
+                          <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}" title="{{jogo.titulo}}"  style="height:180px;width:100%;margin:0px;" />
+
+                          <div style="background-color:#000080;margin-top:-5px;height:24px;font-size:18px;border-radius:5px;width:100%;">
+                            Alugar
+                          </div>
+
+                  </div>
+                </a>
+
+                  {% endif %}{% endif %}{% endfor %}
+      </div>
+      <div style="background-color:#D2D028;color:white;height:40px;text-align:center;font-size:28px;font-weight:bold;">
+         Corrida e Vôo
+      </div>
+      <div style=" text-align: center;margin: 0 auto; max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+          {% for jogo in site.jogos %}
+              {% if jogo.cover_id != null and jogo.cover_id != 84 %}
+
+                  {% if jogo.category == 'Corrida e Vôo' %}
+                  {% assign idurl = jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase %}
+                  <a href="http://loja.strikesete.com.br/corrida-e-voo/{{idurl}}" target="_blank">
+                    <div  style="font-weight:bold;color:white;padding:0px;margin-left:0px;margin-right:0px;margin-top:0.5%;margin-bottom:0.5%;min-width:130px;width:12%;display: inline-block;">
+                            <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}" title="{{jogo.titulo}}"  style="height:180px;width:100%;margin:0px;" />
+                            <div style="background-color:#000080;margin-top:-5px;height:24px;font-size:18px;border-radius:5px;width:100%;">
+                              Alugar
+                            </div>
+                    </div>
+                  </a>
+                    {% endif %}
+              {% endif %}
+          {% endfor %}
+        </div>
+        <div style="background-color:#D2D028;color:white;height:40px;text-align:center;font-size:28px;font-weight:bold;">
+           RPG
+        </div>
+        <div style=" text-align: center;margin: 0 auto; max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+            {% for jogo in site.jogos %}
+                {% if jogo.cover_id != null and jogo.cover_id != 84 %}
+
+                    {% if jogo.category == 'RPG' %}
+                    {% assign idurl = jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase %}
+                    <a href="http://loja.strikesete.com.br/RPG/{{idurl}}" target="_blank">
+                      <div  style="font-weight:bold;color:white;padding:0px;margin-left:0px;margin-right:0px;margin-top:0.5%;margin-bottom:0.5%;min-width:130px;width:12%;display: inline-block;">
+                              <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}" title="{{jogo.titulo}}"  style="height:180px;width:100%;margin:0px;" />
+                              <div style="background-color:#000080;margin-top:-5px;height:24px;font-size:18px;border-radius:5px;width:100%;">
+                                 Alugar
+                              </div>
+                      </div>
+                    </a>
+                      {% endif %}
+                {% endif %}
+            {% endfor %}
+          </div>
+          <div style="background-color:#D2D028;color:white;height:40px;text-align:center;font-size:28px;font-weight:bold;">
+             Luta
+          </div>
+          <div style=" text-align: center;margin: 0 auto; max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+              {% for jogo in site.jogos %}
+                  {% if jogo.cover_id != null and jogo.cover_id != 84 %}
+
+                      {% if jogo.category == 'Luta' %}
+                      {% assign idurl = jogo.title | replace: ' ' : '' | replace: "'" : "" | replace: "&" : "" | replace: "(PES)" : "" | replace: "(Bundle1e2)" : "bundle" | replace: ":" : "" | replace: "-2dias+1" : "" | replace: "-2Dias+1" : "" | downcase %}
+                      <a href="http://loja.strikesete.com.br/RPG/{{idurl}}" target="_blank">
+                        <div  style="font-weight:bold;color:white;padding:0px;margin-left:0px;margin-right:0px;margin-top:0.5%;margin-bottom:0.5%;min-width:130px;width:12%;display: inline-block;">
+                                <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}" title="{{jogo.titulo}}"  style="height:180px;width:100%;margin:0px;" />
+                                <div style="background-color:#000080;margin-top:-5px;height:24px;font-size:18px;border-radius:5px;width:100%;">
+                                   Alugar
+                                </div>
+                        </div>
+                      </a>
+                        {% endif %}
+                  {% endif %}
+              {% endfor %}
+            </div>
+        <div style=" text-align: center;margin: 0 auto; max-width:1200px; background-color: #ffffff; padding: 16px 8px; -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6); box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.6);">
+              http://loja.strikesete.com.br, WhatsApp 799-99938381
+        </div>
+</div>
+
+{% endcapture %}
+
+{% highlight html %}
+{{generated }}
+{% endhighlight %}

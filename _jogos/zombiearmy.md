@@ -8,7 +8,7 @@ estrelas: 4,5
 desenvolvedor: "Rebellion"
 editor: "Rebellion"
 tempo_campanha: 15
-tempo_completo: 15
+tempo_completo: 23
 cover: "zombie.png"
 background_image: "zombiearmy.jpg"
 cover_id: 69

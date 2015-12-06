@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Tomb Raider Definitive Edition "
 date: 2014-01-28 20:25:30
 category: "Ação e Aventura"
@@ -9,6 +9,7 @@ desenvolvedor: "Crystal Dynamics"
 editor: "Square Enix"
 tempo_campanha: 11
 tempo_completo: 20
+cover_id: 67
 cover: "tombraiderdefinitiveedition.png"
 background_image: "tombraiderdefinitiveedition.jpg"
 images: ["battlefield_marked.jpg"]
