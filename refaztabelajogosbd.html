@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Jogos</h1>
+
+<table>
+  <tbody>
+      <tr>
+        <td>
+
+          insert into jogos( id, capa, created_on,data_reserva, disponibilidade,titulo)  values
+          {% for jogo in site.jogos %}
+              ({{jogo.cover_id}}, '{{jogo.cover}}', '12/12/2015',null,false,'{{jogo.title}}'), 
+          {% endfor %} ;
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+
+
+</div>

@@ -10,7 +10,7 @@ editor: "Electronic Arts"
 tempo_campanha: 4
 tempo_completo: 16
 cover: "starwarsbattlefront.png"
-cover_id: 56
+cover_id: 88
 background_image: "starwarsbattlefront.jpg"
 youtube: "https://www.youtube.com/watch?v=u5QKgAUrRdU"
 prices: ["14,00", "20,00", "30,00", "60,00"]

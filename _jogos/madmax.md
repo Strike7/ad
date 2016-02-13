@@ -5,13 +5,13 @@ date: 2015-09-01 20:25:30
 category: "Ação e Aventura"
 tamanho: "32,04 GB"
 estrelas: 4
-cover_id: 41
 desenvolvedor: "Avalanche Studios"
 editor: "Warner Bros. Interactive Entertainment Inc."
 tempo_campanha: 0
 tempo_completo: 0
 cover: "madmax.png"
 background_image: "madmax.jpg"
+cover_id: 41
 images: ["battlefield_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=aBHBXOBKyAM"
 prices: ["9,10", "13,00", "19,50", "39,00"]

@@ -9,7 +9,7 @@ desenvolvedor: "Visual Concepts"
 editor: "2K"
 tempo_campanha: 0
 tempo_completo: 0
-cover_id: 34
+cover_id: 91
 cover: "nba2k16.png"
 background_image: "nba2k16.jpg"
 youtube: "https://www.youtube.com/watch?v=ubRBBKob7hQ"

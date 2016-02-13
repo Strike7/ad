@@ -11,7 +11,7 @@ tempo_campanha: 0
 tempo_completo: 0
 cover: "pes16.png"
 background_image: "pes16.jpg"
-cover_id: 70
+cover_id: 98
 images: ["mkx_marked.jpg"]
 youtube: "https://www.youtube.com/watch?v=WaDcV2STcnw"
 prices: ["14,00", "20,00", "30,00", "60,00"]

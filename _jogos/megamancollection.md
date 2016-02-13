@@ -11,7 +11,7 @@ tempo_campanha: 0
 tempo_completo: 0
 cover: "megaman.png"
 background_image: "megaman.jpg"
-cover_id: 78
+cover_id: 96
 youtube: "https://www.youtube.com/watch?v=wIkfeSvlyA4"
 prices: ["4,90", "7,00", "10,5", "21,00"]
 

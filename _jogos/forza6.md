@@ -3,7 +3,7 @@ layout: mercadolivre-individual
 title: "Forza 6 MotoSport "
 date: 2015-09-15 20:25:30
 category: "Corrida e Vôo"
-tamanho: "0 GB"
+tamanho: "46,16 GB"
 estrelas: 4,5
 desenvolvedor: "Turn 10 Studios"
 editor: "Microsoft Studios"

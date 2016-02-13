@@ -130,7 +130,9 @@ layout: default
                                         <div><label style="font-family: 'Segoe UI Semibold',Arial,Sans-Serif; text-transform: capitalize;"><strong>Descri&ccedil;&atilde;o</strong>:</label><span  style="text-align:justify"><p>{{ jogo.content }}</p>
                                         </span>
                                         {% if jogo.cover_id != null  %}
-                                        <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}?tipo=barra" alt="disponibilidade" title="disponibilidade" style="max-width: 100%; height: auto;"/>
+                                        <div style="width:100%;margin:0 auto;">
+                                          <img src="http://45.55.11.19/api/capa/{{jogo.cover_id}}?tipo=barra" alt="disponibilidade" title="disponibilidade" style="max-width: 100%; height: auto;"/>
+                                        </div>
                                         {% endif %}
                                       </div>
                                     </div>

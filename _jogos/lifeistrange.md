@@ -10,7 +10,7 @@ editor: "Square Enix"
 tempo_campanha: 16
 tempo_completo: 43
 cover: "lifeisstrange.png"
-cover_id: 29
+cover_id: 39
 background_image: "lifeisstrange.jpg"
 youtube: "https://www.youtube.com/watch?v=DCXKTo1E4A8"
 prices: ["4,90", "7,00", "10,5", "21,00"]

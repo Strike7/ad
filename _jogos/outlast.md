@@ -1,5 +1,5 @@
 ---
-layout: mercadolivre-base
+layout: mercadolivre-individual
 title: "Outlast"
 date: 2015-03-17 20:25:30
 category: "Açao e Aventura"

@@ -9,7 +9,7 @@ desenvolvedor: "Visceral"
 editor: "Eletronic Arts"
 tempo_campanha: 7
 tempo_completo: 30
-cover_id: 15
+cover_id: 95
 cover: "darksiders2.png"
 background_image: "darksiders2.jpg"
 images: ["battlefield_marked.jpg"]

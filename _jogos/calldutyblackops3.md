@@ -3,7 +3,7 @@ layout: mercadolivre-individual
 title: "Call of Duty Black Ops 3"
 date: 2015-11-06 20:25:30
 category: "Tiro"
-tamanho: "0 GB"
+tamanho: "48,09 GB"
 estrelas: 4
 desenvolvedor: "Treyarch"
 editor: "Activision"

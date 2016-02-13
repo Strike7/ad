@@ -11,7 +11,7 @@ tempo_campanha: 32
 tempo_completo: 75
 cover_id: 87
 cover: "elderscroll.png"
-background_image: "elderscrool.jpg"
+background_image: "elderscrooll.jpg"
 youtube: "https://www.youtube.com/watch?v=9DLpXdYqFfs"
 prices: ["14,00", "20,00", "30,00", "60,00"]
 ---

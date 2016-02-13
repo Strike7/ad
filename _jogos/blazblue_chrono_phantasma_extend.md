@@ -9,7 +9,7 @@ desenvolvedor: "ARC SYSTEM WORKS"
 editor: "ARC SYSTEM WORKS"
 tempo_campanha: 7
 tempo_completo: 30
-cover_id: 13
+cover_id: 94
 cover: "blazblue.png"
 background_image: "blazblue.jpg"
 youtube: "https://www.youtube.com/watch?v=eucai6Pl6Wo"
